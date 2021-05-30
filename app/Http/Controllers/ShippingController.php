@@ -16,4 +16,18 @@ class ShippingController
     {
         $this->shippingService = $shippingService;
     }
+
+    /**
+     * Calculate gross price
+     *
+     * @return float
+     */
+    public function getGrossPrice(): float
+    {
+        $grossPrice = $this->shippingService->getGrossPrice();
+
+        var_dump($grossPrice);
+
+        return $grossPrice;
+    }
 }
