@@ -24,10 +24,6 @@ class ShippingController
      */
     public function getGrossPrice(): float
     {
-        $grossPrice = $this->shippingService->getGrossPrice();
-
-        var_dump($grossPrice);
-
-        return $grossPrice;
+        return $this->shippingService->getGrossPrice();
     }
 }
