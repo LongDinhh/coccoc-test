@@ -8,7 +8,7 @@ class Order
 
     protected int $productId;
 
-    protected int $grossPrince;
+    protected float $grossPrince;
 
     protected float $weightCoefficient;
 
