@@ -6,6 +6,8 @@ class Product
 {
     const TYPE_DEFAULT = 1;
 
+    protected float $id;
+
     protected float $price;
 
     protected float $weight;
